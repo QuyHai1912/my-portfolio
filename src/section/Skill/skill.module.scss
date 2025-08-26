@@ -1,0 +1,143 @@
+.skill {
+    background-color: #111827;
+    height: 950px;
+    position: relative;
+}
+
+.skillContain {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+}
+
+.skillTitle {
+    margin-top: 70px;
+    height: 7rem;
+    line-height: 7rem;
+    align-content: center;
+    font-size: 6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-shadow:
+        0 0 10px #70ff00,
+        0 0 20px #41ff00,
+        0 0 30px #00ff14,
+        0 0 40px #00ff11;
+    transition: all 0.3s ease;
+}
+
+.skillTitleAni {
+    text-shadow:
+        0 0 25px #70ff00,
+        0 0 35px #41ff00,
+        0 0 45px #00ff14,
+        0 0 55px #00ff11 !important;
+}
+
+.titleText {
+    font-size: 2rem;
+    line-height: 4rem;
+    height: 4rem;
+    color: #00f908;
+}
+
+.navGroup {
+    display: flex;
+    list-style: none;
+    margin: 20px auto;
+    height: 50px;
+    border-radius: 50px;
+    padding: 0 30px;
+}
+
+.groupItem {
+    position: relative;
+    font-size: 2rem;
+    padding: 0 5px;
+    text-align: center;
+    margin: 0 25px;
+    align-content: center;
+    height: 100%;
+    font-weight: 700;
+    cursor: pointer;
+    color: #3c653c;
+    transition: all 0.3s ease;
+
+    &:hover {
+        font-size: 2.5rem;
+    }
+}
+
+.groupItemActive {
+    color: #19ff19;
+    font-size: 2.5rem;
+}
+
+// =================Nav  List Item ==================
+.listSkill {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listSkillItems {
+    margin-top: 40px;
+}
+
+.listSkillItem {
+    background-color: #1f2937;
+    padding: 20px 0;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: #538760;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+}
+
+.listSkillItemIcons {
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    margin: 30px auto;
+    padding: 10px;
+    border: 5px solid #00f908;
+    border-radius: 50%;
+}
+
+.listSkillItemIcon {
+    display: block;
+    font-size: 2.8rem;
+    width: 40px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.listSkillItemName {
+    height: 3rem;
+    line-height: 3rem;
+    margin-bottom: 20px;
+    color: #00f908;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.listSkillItemLevel {
+    line-height: 2rem;
+    font-size: 1.6rem;
+    color: #00f908;
+}
+
+
+
+
+

@@ -1,0 +1,155 @@
+.projectMain {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+
+.projectGradient {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: radial-gradient(circle,rgba(255, 255, 255, 0) 0%, rgb(0, 0, 0) 80%);
+}
+
+.projectList {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    flex-direction: row;
+}
+
+.projectItemBg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -2;
+}
+
+.projectItem {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.projectItemInfor {
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-top: 100px;
+    justify-content: left;
+}
+
+.projectInforName {
+    font-size: 7rem;
+    line-height: 7.4rem;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+}
+
+.projectInforText {
+    color: white;
+    font-size: 2rem;
+    line-height: 2.6rem;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.projectInforLang {
+    text-align: left;
+    color: white;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.projectInforTranfer {
+    border: none;
+    padding: 5px 10px;
+    color: #6a6363;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2rem;
+    margin: 20px;
+    display: block;
+    width: 120px;
+    background-image: linear-gradient(90deg, #baf475, white);
+
+    &:hover {
+        color: #333;
+    }
+}
+
+.iconTranfer {
+    margin-right: 10px;
+}
+
+.projectInforDate {
+    text-align: left;
+    color: white;
+    // margin-top: 50px;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.projectInforLink {
+    position: absolute;
+    bottom: 50px;
+    left: 80px;
+    text-decoration: none;
+    margin-top: 50px;
+    background-image: linear-gradient(90deg, #f4d075, white);
+    height: 60px;
+    width: 150px;
+    color: #6a6363;
+    font-size: 2.4rem;
+    font-weight: 700;
+    align-content: center;
+    border-radius: 50px;
+
+    &:hover {
+        color: #333;
+    }
+}
+
+.projectItems {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    padding: 100px 50px 50px;
+    justify-content: flex-end;
+}
+
+.projectItemImg {
+    width: 170px;
+    height: 100px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.projectItemImgActive {
+    transform: scale(1.1);
+    border: 2px solid white;
+}

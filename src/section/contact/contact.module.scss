@@ -1,0 +1,186 @@
+.contact {
+    background-color: #111827;
+    height: 850px;
+    width: 100%;
+}
+
+.contactContain {
+    display: flex;
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    align-items: center;
+}
+
+.contactSocial {
+    background-color: #292e72;
+    border-radius: 10px;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: left;
+    align-items: center;
+}
+
+.contactFormSocial {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactYourInfor {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.contactYourName {
+    outline: none;
+    height: 50px;
+    width: 45%;
+    border-radius: 5px;
+    background-color: #111827;
+    border: none;
+    padding-left: 10px;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: white;
+}
+
+.contactYourEmail {
+    outline: none;
+    height: 50px;
+    width: 90%;
+    border-radius: 5px;
+    background-color: #111827;
+    border: none;
+    padding-left: 10px;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contactYourMess {
+    padding-top: 20px;
+    outline: none;
+    height: 140px;
+    width: 90%;
+    border-radius: 5px;
+    background-color: #111827;
+    border: none;
+    padding-left: 10px;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: white;
+    scrollbar-width: none;
+}
+
+.contactBtnSubmit {
+    margin-top: 20px;
+    height: 50px;
+    line-height: 2.4rem;
+    font-size: 2rem ;
+    display: block;
+    background-color: #df2929;
+    color: white;
+    border-radius: 5px;
+    width: 160px;
+    cursor: pointer;
+    &:hover {
+        background-color: red;
+    }
+}
+
+.contactMysocial {
+    position: absolute;
+    background-color: #4748f3;
+    left: 40px;
+    height: 70%;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.contactMysocialImg {
+    width: 60%;
+}
+
+.contactMysocialHead {
+    font-size: 3.4rem;
+    color: white;
+    line-height: 4rem;
+}
+
+.contactMysocialText {
+    text-align: left;
+    padding:0 40px 0 50px;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: rgb(230, 228, 228);
+}
+
+.contactMysocialList {
+    text-align: left;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    margin-top: 30px;
+}
+
+.contactMysocialItem {
+    color: white;
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+}
+
+.contactMysocialIcon {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 2rem;
+    width: 22px;
+}
+
+.contactMysocialIcons {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 30px 50px 0 50px;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.contactMysocialIconsItem {
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    align-content: center;
+}
+
+.contactMysocialIconLink {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #292e72;
+    border-radius: 50%;
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    font-size: 2rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    &:hover {
+        background-color: #2400ff;
+    }
+}
+
+.contactMysocialLinkicon {
+    color: white;
+    width: 22px;
+}
