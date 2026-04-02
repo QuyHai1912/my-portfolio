@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   // 👇 Cấu hình base để GitHub Pages load asset đúng
-  base: "./",
+  base: "/my-portfolio/",
   build: {
     outDir: "dist", // thư mục build
   },
