@@ -1,0 +1,58 @@
+.header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(180deg, #000, transparent);
+    z-index: 2;
+}
+
+.myCV {
+    display: block;
+    text-decoration: none;
+    background-image: linear-gradient(90deg, #efff7c, #fff);
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    align-content: center;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+    color: #504d4d;
+
+    &:hover {
+        cursor: pointer;
+        color: #000;
+    }
+
+    i {
+        margin-left: 15px;
+    }
+}
+
+.navList {
+    display: flex;
+    list-style: none;
+}
+
+.navItem {
+    margin-right: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    width: 80px;
+    text-align: center;
+    transition: all 0.3s ease;
+    &:hover {
+        cursor: pointer;
+        filter: drop-shadow(0 0 5px white);
+        font-size: 20px;
+    }
+    
+}
